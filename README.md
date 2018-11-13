@@ -25,16 +25,15 @@ npm start
 npm test
 ```
 
-##Endpoints
+## Endpoints
 * `POST /api/scoreboard`
 * `GET /api/scoreboard`
 * `POST /api/gist`
 * `GET /api/gist/:id/comments`
 
 
-##Environment Variables
+## Environment Variables
 
-#### .ENV file
 * `NODE_ENV` - _String_
 * `PORT` - _String_
 * `MONGO_URL` - _String_
@@ -44,10 +43,8 @@ npm test
 * `GITHUB_USER` - _String_
 * `GITHUB_PASSWORD` - _String_
 
-## Example JSON from AWS Queue
 
-
-#### Example to add Gist file
+## Example to add Gist file
 ```
 {
   "description": "Hello World Examples",
